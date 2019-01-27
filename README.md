@@ -11,6 +11,7 @@ Data are published in json format for the winter and summer period and my script
 * off peak is it active (casZap1) or inactive (casVyp1)
 Data are published via nginx www sever for Home Assistant to be consumed as state 0 or 1. For the user there is another published file to see whed there will be a state change. 
 
+# HELP WANTED
 Next goal is to convert this script to Home Assistant component.
 * config: region and code (or command or command code) - I am using just the code
 * name: binary_sensor.cez_distribuce_hdo-custom_name
